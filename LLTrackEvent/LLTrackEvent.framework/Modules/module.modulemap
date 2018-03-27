@@ -1,0 +1,6 @@
+framework module LLTrackEvent {
+  umbrella header "LLTrackEvent.h"
+
+  export *
+  module * { export * }
+}

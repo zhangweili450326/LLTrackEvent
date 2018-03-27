@@ -11,13 +11,7 @@
 		5041EF77B0A1F264D39075D7 /* Pods_LLTrackEvent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D3D4510A4A0075D218470D /* Pods_LLTrackEvent.framework */; };
 		84240A4020688CA300DCDBE3 /* LLTrackEvent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84240A3620688CA300DCDBE3 /* LLTrackEvent.framework */; };
 		84240A4520688CA300DCDBE3 /* LLTrackEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84240A4420688CA300DCDBE3 /* LLTrackEventTests.m */; };
-		84240A4720688CA300DCDBE3 /* LLTrackEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 84240A3920688CA300DCDBE3 /* LLTrackEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84240A5620688F8A00DCDBE3 /* LLTrackEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84240A5020688F8900DCDBE3 /* LLTrackEventManager.m */; };
-		84240A5720688F8A00DCDBE3 /* LLTrackEventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84240A5120688F8900DCDBE3 /* LLTrackEventManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84240A5820688F8A00DCDBE3 /* NSDictionary+TrackEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84240A5220688F8900DCDBE3 /* NSDictionary+TrackEvent.m */; };
-		84240A5920688F8A00DCDBE3 /* LLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84240A5320688F8900DCDBE3 /* LLNetworkManager.m */; };
-		84240A5A20688F8A00DCDBE3 /* NSDictionary+TrackEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 84240A5420688F8A00DCDBE3 /* NSDictionary+TrackEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84240A5B20688F8A00DCDBE3 /* LLNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84240A5520688F8A00DCDBE3 /* LLNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B97C77206A1B460062A5EE /* LLTrackEvent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B97C76206A1B460062A5EE /* LLTrackEvent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +29,11 @@
 		1BD68D8E8C137EAC3D4055A5 /* Pods-LLTrackEventTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTrackEventTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLTrackEventTests/Pods-LLTrackEventTests.debug.xcconfig"; sourceTree = "<group>"; };
 		83492CA93392A156D66B0556 /* Pods-LLTrackEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTrackEvent.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLTrackEvent/Pods-LLTrackEvent.release.xcconfig"; sourceTree = "<group>"; };
 		84240A3620688CA300DCDBE3 /* LLTrackEvent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLTrackEvent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84240A3920688CA300DCDBE3 /* LLTrackEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTrackEvent.h; sourceTree = "<group>"; };
 		84240A3A20688CA300DCDBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84240A3F20688CA300DCDBE3 /* LLTrackEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLTrackEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84240A4420688CA300DCDBE3 /* LLTrackEventTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTrackEventTests.m; sourceTree = "<group>"; };
 		84240A4620688CA300DCDBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84240A5020688F8900DCDBE3 /* LLTrackEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTrackEventManager.m; sourceTree = "<group>"; };
-		84240A5120688F8900DCDBE3 /* LLTrackEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTrackEventManager.h; sourceTree = "<group>"; };
-		84240A5220688F8900DCDBE3 /* NSDictionary+TrackEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TrackEvent.m"; sourceTree = "<group>"; };
-		84240A5320688F8900DCDBE3 /* LLNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNetworkManager.m; sourceTree = "<group>"; };
-		84240A5420688F8A00DCDBE3 /* NSDictionary+TrackEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TrackEvent.h"; sourceTree = "<group>"; };
-		84240A5520688F8A00DCDBE3 /* LLNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNetworkManager.h; sourceTree = "<group>"; };
+		84B97C76206A1B460062A5EE /* LLTrackEvent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LLTrackEvent.framework; sourceTree = "<group>"; };
 		ADE4EF3717BB25843C6388ED /* Pods_LLTrackEventTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLTrackEventTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64771097AA974A148A5D4A2 /* Pods-LLTrackEvent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTrackEvent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLTrackEvent/Pods-LLTrackEvent.debug.xcconfig"; sourceTree = "<group>"; };
 		E224686B68219784BEF76FAA /* Pods-LLTrackEventTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTrackEventTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLTrackEventTests/Pods-LLTrackEventTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5041EF77B0A1F264D39075D7 /* Pods_LLTrackEvent.framework in Frameworks */,
+				84B97C77206A1B460062A5EE /* LLTrackEvent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,13 +93,7 @@
 		84240A3820688CA300DCDBE3 /* LLTrackEvent */ = {
 			isa = PBXGroup;
 			children = (
-				84240A5520688F8A00DCDBE3 /* LLNetworkManager.h */,
-				84240A5320688F8900DCDBE3 /* LLNetworkManager.m */,
-				84240A5120688F8900DCDBE3 /* LLTrackEventManager.h */,
-				84240A5020688F8900DCDBE3 /* LLTrackEventManager.m */,
-				84240A5420688F8A00DCDBE3 /* NSDictionary+TrackEvent.h */,
-				84240A5220688F8900DCDBE3 /* NSDictionary+TrackEvent.m */,
-				84240A3920688CA300DCDBE3 /* LLTrackEvent.h */,
+				84B97C76206A1B460062A5EE /* LLTrackEvent.framework */,
 				84240A3A20688CA300DCDBE3 /* Info.plist */,
 			);
 			path = LLTrackEvent;
@@ -143,10 +126,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84240A5B20688F8A00DCDBE3 /* LLNetworkManager.h in Headers */,
-				84240A5720688F8A00DCDBE3 /* LLTrackEventManager.h in Headers */,
-				84240A5A20688F8A00DCDBE3 /* NSDictionary+TrackEvent.h in Headers */,
-				84240A4720688CA300DCDBE3 /* LLTrackEvent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,9 +323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84240A5620688F8A00DCDBE3 /* LLTrackEventManager.m in Sources */,
-				84240A5820688F8A00DCDBE3 /* NSDictionary+TrackEvent.m in Sources */,
-				84240A5920688F8A00DCDBE3 /* LLNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +476,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLTrackEvent",
+				);
 				INFOPLIST_FILE = LLTrackEvent/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -541,6 +521,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLTrackEvent",
+				);
 				INFOPLIST_FILE = LLTrackEvent/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
