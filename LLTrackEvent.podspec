@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "LLTrackEvent"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "A track event upload sdk."
   s.homepage     = "https://github.com/zhangweili450326/LLTrackEvent"
   s.license      = "MIT"
