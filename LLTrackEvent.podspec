@@ -7,7 +7,7 @@ s.name         = "LLTrackEvent"
   s.license      = "MIT"
   s.platform     = :ios, "8.0"
   s.author             = { "admin" => "362870113@qq.com" }
-  s.source       = { :git => "http://zhangweili450326/LLTrackEvent.git", :tag => "#{s.version}" }
+  s.source       = { :git => "http://zhangweili450326/LLTrackEvent.git", :tag => ""1.0.0"" }
   s.source_files  = "LLTrackEvent/*.{h,m}"
   s.dependency 'AFNetworking','~> 3.2.0'
   s.dependency 'FMDB'
