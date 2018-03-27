@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zhangweili450326/LLTrackEvent.git", :tag => s.version }
   #s.source_files  = "LLTrackEvent/*.{h,m}"
   #s.source_files  = "LLTrackEvent/**/*.{h,m}"
-  s.vendored_frameworks = 'LLTrackEvent.framework'
+  s.vendored_frameworks = 'LLTrackEvent/LLTrackEvent.framework'
   s.dependency 'AFNetworking','~> 3.2.0'
   s.dependency 'FMDB'
   s.dependency 'Reachability'
