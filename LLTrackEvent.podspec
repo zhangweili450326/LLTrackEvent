@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "LLTrackEvent"
-  s.version      = "1.0.6"
+  s.version      = "1.0.8"
   s.summary      = "A track event upload sdk."
   s.homepage     = "https://github.com/zhangweili450326/LLTrackEvent"
   s.license      = "MIT"
@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.author             = { "admin" => "362870113@qq.com" }
   s.source       = { :git => "https://github.com/zhangweili450326/LLTrackEvent.git", :tag => s.version }
   #s.source_files  = "LLTrackEvent/*.{h,m}"
-  s.source_files  = "LLTrackEvent/**/*.{h,m}"
+  #s.source_files  = "LLTrackEvent/**/*.{h,m}"
+  s.vendored_frameworks = 'LLTrackEvent.framework'
   s.dependency 'AFNetworking','~> 3.2.0'
   s.dependency 'FMDB'
   s.dependency 'Reachability'
